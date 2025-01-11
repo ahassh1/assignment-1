@@ -474,8 +474,94 @@
  }
  .option{
     background-color: aliceblue;
-    border-radius: 6px;
+    border-radius: 7px;
  }
 
  /* news part start  */
+
+.sat{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    border-radius: 7px;
+
+}
+.container_sate{
+     background-image: url("./assets/satelite.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 240px;
+    width: 350px; 
+    border-radius: 13px;
+    margin: 10px 22px ;
+
+}
+.sat_head{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 21px;
+    font-weight: 700;
+    margin: 18px 0;
+
+
+}
+.sat_btn{
+   
+    color: rgb(255, 250, 250);
+    background: rgb(73, 132, 233);
+    font-size: 10px;
+    font-weight: 500;
+    font-family: Fira Sans;
+    text-align: center;
+    padding: 8px 12px;
+    margin:12px 0;
+    border-radius: 5px;
+    margin: 19px 0;
+}
+.sat_heading{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 11px;
+    font-weight: 400;
+    margin: 15px 0;
+    
+}
+.sat_parag{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+.donate-pragraph{
+   
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 400;
+}
+.donate_heading{
+   
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+}
+
+.donate_item{
+    /* justify-content: center;
+    align-items: center; */
+    margin: 0px auto;
+    
+    text-align: center;
+}
+
+
+
+
+
 
