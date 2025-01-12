@@ -11,7 +11,7 @@
     margin: 0;
 }
 .device_width{
-    width: 85%;
+    width: 80%;
     background-color: rgb(220, 250, 241);
     margin: 0 auto;
 }
@@ -680,14 +680,15 @@ line-height: 48px;
     border: none; 
 }
 
-.inp{
+
+.tk_form input{
+    
     width: 100%;
-    padding: 10px 19px;
-    border-radius: 6px;
-    border: 1px solid rgb(147, 92, 198);
+    padding: 13px 0;
+    border: none;
+    border-radius: 5px;
     margin-top: 10px;
-    box-shadow: 2 px ;
-}
+}  
 .taka_btn{
     font-family: Fira Sans;
     font-size: 12px;
@@ -729,9 +730,8 @@ line-height: 48px;
     font-family: Fira Sans;
   color: white;
   margin: 13px 1px;
-
-
 }
+
 .footer_head{
     color: rgba(0, 0, 0, 0.952);
     margin-top: 36px;
@@ -742,14 +742,12 @@ line-height: 48px;
     margin: 0 auto;
     text-align: center;
     padding: 40px;
-    /* justify-content: center; */
-    /* align-items: center; */
+   
 }
 .footer_head{
     font-family: Fira Sans;
     font-size: 53px;
     font-weight: 600;
-    /* line-height: 1%; */
 
 }
 .footer_pra{
@@ -759,21 +757,15 @@ line-height: 48px;
 }
 input{
     padding: 12px 109px;
-    border-radius: 4px 4px 0 0;
+    border-radius: 6px 0 0 6px;
     margin-top: 9px;
     box-shadow: 1px ;
     border: none;
     margin-bottom: 14px;
+    
 }
-.footer_advice{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0%;
-    text-align: center;
-}
+
+
 
 .footer_btn{
     font-family: Fira Sans;
@@ -785,11 +777,22 @@ input{
     color: rgb(255, 255, 255);
     background-color:rgb(0, 106, 80) ;
     border: none;
-    padding: 13px 32px;
-    border-radius: 4px 4px 4px 0;
+    padding: 14px 31px;
+    border-radius: 0 6px 6px 0;
     margin-top: 11px;
     margin-left: -5px;
 }
+
+.footer_advice{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
 .footer_btn:hover{
     background-color: red;
     color: rgb(255, 255, 255);
@@ -816,12 +819,4 @@ input{
     width: 100%;
     
 }
-.footer_img{
-    margin: -2px -6x;
-}
-
-
-
-
-
 
